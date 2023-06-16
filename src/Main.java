@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Transport[] transport = {
+        TransportDevice[] transportDevice = {
                 new Car("car1", 4),
                 new Car("car2", 4),
 
@@ -10,8 +10,8 @@ public class Main {
                 new Truck("truck1", 6),
                 new Truck("truck2", 8),
         };
-        for (Transport value : transport) {
-            value.check(value);
+        for (TransportDevice device : transportDevice) {
+            device.doService();
         }
     }
 }
